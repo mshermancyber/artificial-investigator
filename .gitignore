@@ -1,0 +1,33 @@
+# Claude Code project settings
+.claude/
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Docker
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Certificates (generated at runtime)
+certs/
+
+# Test artifacts
+tmp/
